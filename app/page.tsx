@@ -16,16 +16,19 @@ export default function Home() {
 
       <div className={styles.videoBackground}>
         <video autoPlay muted loop className={styles.video}>
-          <source src="public/video.mp4" type="video/mp4" />
+          <source
+            src="https://portifolio-joao-vitor-salgueiro.vercel.app/video.mp4"
+            type="video/mp4"
+          />
           Your browser does not support the video tag.
         </video>
       </div>
 
       <main className={styles.mainContent}>
-        <h1 className={styles.title}>Welcome to My Website</h1>
+        <h1 className={styles.title}>Texto malado aqui</h1>
         <div className={styles.buttonContainer}>
-          <button className={styles.button}>Button 1</button>
-          <button className={styles.button}>Button 2</button>
+          <button className={styles.button}>Sobre mim</button>
+          <button className={styles.button}>Portfolio</button>
         </div>
       </main>
     </div>
