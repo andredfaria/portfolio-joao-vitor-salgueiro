@@ -1,0 +1,78 @@
+/* Definindo o estilo geral do container */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Estilo para a seção de introdução */
+.intro {
+  max-width: 800px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.intro h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.intro p {
+  font-size: 1.2rem;
+  color: #666;
+  line-height: 1.6;
+}
+
+/* Estilo para a seção de carreira */
+.career {
+  max-width: 800px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.career h2 {
+  font-size: 2rem;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+.career p {
+  font-size: 1rem;
+  color: #777;
+  line-height: 1.6;
+}
+
+/* Estilo para a seção de contato */
+.contact {
+  max-width: 800px;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 2rem;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+.contact ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.contact li {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.contact a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}

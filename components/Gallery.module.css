@@ -1,0 +1,22 @@
+/* components/Gallery.module.css */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 16px;
+  padding: 16px;
+}
+
+.photo {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.image {
+  transition: transform 0.2s ease;
+}
+
+.photo:hover .image {
+  transform: scale(1.05);
+}
