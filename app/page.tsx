@@ -28,12 +28,19 @@ export default function Home() {
       </Head>
 
       <div className={styles.videoBackground}>
-        <video autoPlay muted loop className={styles.video}>
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
+          preload="auto"
+          className={styles.video}
+        >
           <source
             src="https://portifolio-joao-vitor-salgueiro.vercel.app/videos/background.mp4"
             type="video/mp4"
           />
-          Your browser does not support the video tag.
+          Seu Navegador não suporta o elemento da pagina.
         </video>
       </div>
 
